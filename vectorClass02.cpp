@@ -7,9 +7,12 @@ using namespace std;
 int main() {
     optimize();
 
+    string s;
+    getline(cin,s);
+   
+   cout << *max_element(s.begin(), s.end()) << endl;
+   cout << *min_element(s.begin(), s.end());
     
-
-
-
-
+     
+    return 0;
 }
