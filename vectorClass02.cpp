@@ -10,9 +10,8 @@ int main() {
     string s;
     getline(cin,s);
    
-   cout << *max_element(s.begin(), s.end()) << endl;
-   cout << *min_element(s.begin(), s.end());
-    
+   s.erase (s.begin());
+    cout << s << endl;
      
     return 0;
 }
